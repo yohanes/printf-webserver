@@ -74,7 +74,7 @@ main:
 //write
 	xorq %rdx, %rdx
 	//is string length
-	mov $60,%dl
+	mov $61,%dl
 	mov %r13, %rsi 
 	mov %r12, %rdi	
 //eax was 0 because of fork
